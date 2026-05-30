@@ -1,0 +1,11 @@
+{
+    "workbench.startupEditor": "none",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "terminal.integrated.initialHint": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.mouseWheelScrollSensitivity": 3,
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay"
+}

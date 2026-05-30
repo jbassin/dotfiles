@@ -1,9 +1,11 @@
-eval "$(starship init zsh)"
-export PATH="$HOME/.local/bin:$PATH"
+# path updates
+path+=("${HOME}/.local/bin")
 
-# bun completions
-[ -s "/Users/jbassin/.bun/_bun" ] && source "/Users/jbassin/.bun/_bun"
+# mise tools
+eval "$(mise activate)"
+
+# prompt
+eval "$(starship init zsh)"
 
 # bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
+[ -s "/Users/jbassin/.bun/_bun" ] && source "/Users/jbassin/.bun/_bun"

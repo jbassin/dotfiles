@@ -1,0 +1,4 @@
+[tools]
+bun = "1.3"
+cargo = "latest"
+python = "3.14"
