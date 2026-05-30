@@ -3,6 +3,7 @@ path+=("${HOME}/.local/bin")
 
 # mise tools
 eval "$(mise activate)"
+mise install --quiet
 
 # prompt
 eval "$(starship init zsh)"
